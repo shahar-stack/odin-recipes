@@ -26,3 +26,7 @@ h2.background {
 .center-text {
     text-align: center;
 }
+
+.center-text ul{
+    display: inline-block;
+}
