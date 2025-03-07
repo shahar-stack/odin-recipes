@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+}
+
+h1.background {
+    font-size: 45px;
+    color: white;
+}
+
+.background {
+    background-color: darkred;
+    font-size: 20px;
+}
+
+h2.background {
+    font-size: 30px;
+    color: white;
+}
+
+.center-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center-text {
+    text-align: center;
+}
