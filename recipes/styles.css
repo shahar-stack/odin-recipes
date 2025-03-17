@@ -1,5 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
-    background-color: beige;
+    background-color: darkgray;
 }
 
 h1.background {
@@ -27,6 +34,34 @@ h2.background {
     text-align: center;
 }
 
-.center-text ul{
+.listDesign li {
     display: inline-block;
+    margin: auto 15px;
+}
+
+.pageButton {
+    font-size: 18px;
+    border: solid black 2px;
+    background-color: lightblue;
+    width: 300px;
+    height: 100px;
+}
+
+.pageButton:hover {
+    opacity: 90%;
+    color: white;
+}
+
+.listDesign a{
+    color: black;
+    text-decoration: none;
+}
+
+.title {
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.imgBorder {
+    border: solid 10px white;
 }
